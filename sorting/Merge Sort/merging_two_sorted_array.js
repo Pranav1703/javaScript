@@ -15,4 +15,15 @@ function merge(arr1,arr2){
         }
         k++;
     }
+    while(i<arr1.length){
+        res[k] = arr[i];
+        i++;
+        k++;
+    }
+    while(j<arr2.length){
+        res[k] = arr[j];
+        j++;
+        k++;
+    }
+    
 }
