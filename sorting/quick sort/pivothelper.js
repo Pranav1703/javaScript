@@ -6,7 +6,7 @@ function swap(arr,i,j){
 function pivotHelper(arr,start =0,end = arr.length-1){
     let pivot = arr[start];
     let swapIndex = start;
-    for(let i=0;i<arr.length;i++){
+    for(let i=0;i<=end;i++){
         if(pivot>arr[i]){
             swapIndex++;
             swap(arr,swapIndex,i)
