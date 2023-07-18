@@ -17,7 +17,7 @@ class singlyLinkedList{
         let newnode = new Node(val);
         if(!this.head){
             this.head = newnode;
-            this.tail = this.head;
+            this.tail = newnode;
         }
         else{
             this.tail.next = newnode;
@@ -80,7 +80,7 @@ class singlyLinkedList{
         if(!this.head)
         {
             this.head = newnode;
-            this.tail = this.head;
+            this.tail = newnode;
         }
         else
         {
